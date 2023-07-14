@@ -1,0 +1,22 @@
+.col-3, .col-12{
+    padding: 12px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    background: black;
+    border-radius: 15px;
+}
+
+.btn-block{
+    background: #F69906;
+    border-radius: 15px;
+}
+
+.btn1{
+    background: #9F9F9F;
+}
+
+body{
+    background: #5a6268;
+}

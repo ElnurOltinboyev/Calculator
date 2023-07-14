@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header">
+                    <input type="text" class="form-control text-right"  value="" id="screen" disabled placeholder="0">
+                </div>
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn btn-block btn1" id="dellAll" onclick="dellAll()">C</button>
+                        </div>
+
+                        <div class="col-6">
+                                <button class="btn btn-block text-white" onclick="backspace()">&Lt;</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block btn1" id="root" onclick=root()>&#8730;</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block btn1" id="degree" onclick="degree()">x <sup>2</sup></button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block text-white" id="percent" onclick="Action('percent')">%</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block text-white" onclick="Action('plus')">+</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(9)">9</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(8)">8</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(7)">7</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block text-white" onclick="Action('minus')">-</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(6)">6</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(5)">5</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(4)">4</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block text-white" onclick="Action('divide')">/</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(3)">3</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(2)">2</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(1)">1</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block text-white" onclick="Action('multiply')">&#215;</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber(0)">0</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber('00')" id="double">00</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn btn-block bg-secondary text-white" onclick="addNumber('.')">.</button>
+                        </div>
+
+                        <div class="col-3">
+                            <button class="btn text-white btn-block " onclick="equal()">=</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
